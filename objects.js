@@ -10,5 +10,10 @@ const team = {
   yearoffinals:[2009,2011,2016]
 };
 
+// this is how we can insert the new key 
+team.location='blore'
+team['instagram']= '@teamXyz.in',
+
 console.log(team.yearoffinals[1]);
-console.log(team.yearoffinals);
+console.log(team);
+
